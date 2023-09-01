@@ -20,18 +20,18 @@ public class main {
         int c = sc.nextInt();
 
        if (0 < a | a <= 10000) {
-            double res 1 = a * .025;
-           System.out.printf("Result is %.2f"  + res 1);
+            double res = a * .025;
+           System.out.printf("Result is %.2f"  + res);
 
-        } else if (10000<b<25000) {
+        } else if (10000 < b | b < 25000) {
 
-            double res 2 = b * .043;
+            double res = b * .043;
 
-           System.out.printf("Result is %.2f"  + res 2);
+           System.out.printf("Result is %.2f"  + res);
 
         } else if (c > 25000) {
-            double res 3 = c * .067;
-            System.out.printf("Result is %.2f"  + res 3);
+            double res = c * .067;
+            System.out.printf("Result is %.2f"  + res);
 
         sc.close();
 
